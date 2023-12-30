@@ -1,0 +1,42 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.colorField {
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.colorForm {
+   padding: 10px;
+   font-family: monospace;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.field {
+   padding: 10px;
+   height: 30px;
+   width: 180px;
+   border: 0;
+   text-align: center;
+}
+
+.color {
+   margin-bottom: 20px;
+   font-family: inherit;
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+.result {
+   background-color: rgba(0, 0, 0, 0.4);
+   line-height: 30px;
+   color: white;
+}
+
